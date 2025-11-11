@@ -44,6 +44,8 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/serosme/learn" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/serosme/journey" },
+    ],
   },
 });
