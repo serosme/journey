@@ -8,6 +8,9 @@ hero:
   tagline: "求知非抵达终点，而是永在旅途。"
   actions:
     - theme: brand
+      text: Scoop
+      link: /setup/scoop
+    - theme: alt
       text: Git
       link: /setup/git
     - theme: alt
