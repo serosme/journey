@@ -19,3 +19,9 @@ git rm -rf --cached .
 ```shell
 git reset --hard HEAD
 ```
+
+获取当前 `HEAD` 所指向提交的短哈希值
+
+```shell
+git rev-parse --short HEAD
+```
