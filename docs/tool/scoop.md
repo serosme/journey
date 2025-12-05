@@ -2,7 +2,7 @@
 
 ## 文档
 
-[Scoop](https://scoop.sh)
+[Scoop](https://scoop.sh/)
 
 ## 快速开始
 
@@ -30,4 +30,24 @@ scoop config proxy 127.0.0.1:7890
 
 ```shell
 scoop update | scoop update * | scoop cache rm * | scoop cleanup *
+```
+
+导出
+
+```shell
+scoop export > scoop.json
+```
+
+导入
+
+```shell
+scoop import .\scoop.json
+```
+
+## 其他
+
+正则表达式
+
+```text
+"(Updated|Version|Info)":.*\n
 ```
