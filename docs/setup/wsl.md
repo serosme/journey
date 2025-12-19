@@ -14,8 +14,18 @@ bash <(curl -fsSL https://script.seros.me/wsl-config)
 
 ### 软件源镜像
 
-使用脚本替换
+Ubuntu 24.04 Deb822-Style
 
 ```shell
-bash <(curl -fsSL https://script.seros.me/ubuntu-mirror)
+bash <(curl -fsSL https://script.seros.me/ubuntu-noble-deb822-style-mirror)
+```
+
+## Debian
+
+### 软件源镜像
+
+Debian 13 One-Line-Style
+
+```shell
+bash <(curl -fsSL https://script.seros.me/debian-trixie-one-line-style-mirror)
 ```
