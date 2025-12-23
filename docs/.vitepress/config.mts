@@ -16,7 +16,6 @@ export default defineConfig({
         items: [
           { text: "Scoop", link: "/setup/scoop" },
           { text: "Git", link: "/setup/git" },
-          { text: "Linux", link: "/setup/linux" },
           { text: "WSL", link: "/setup/wsl" },
           { text: "Docker", link: "/setup/docker" },
         ],
@@ -27,6 +26,13 @@ export default defineConfig({
           { text: "Git", link: "/tool/git" },
           { text: "Scoop", link: "/tool/scoop" },
           { text: "Docker", link: "/tool/docker" },
+        ],
+      },
+      {
+        text: "Linux",
+        items: [
+          { text: "Debian", link: "/linux/debian" },
+          { text: "Ubuntu", link: "/linux/ubuntu" },
         ],
       },
       {
