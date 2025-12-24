@@ -1,0 +1,23 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "uname -a",
+  "remoteUser": "node",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/node/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/home/node/workspace",
+  // "postCreateCommand": "pnpm config set store-dir ~/.pnpm-store",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vue.volar",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
