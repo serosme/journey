@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "Git", link: "/tool/git" },
           { text: "Scoop", link: "/tool/scoop" },
           { text: "Docker", link: "/tool/docker" },
+          { text: "Kubernetes", link: "/tool/kubernetes" },
         ],
       },
       {
