@@ -41,13 +41,10 @@ export default defineConfig({
       },
       {
         text: 'Java',
-        items: [{ text: 'JDK', link: '/java/jdk' }],
-      },
-      {
-        text: '后端',
+        collapsed: true,
         items: [
-          { text: 'Spring', link: '/spring/' },
-          { text: 'Maven', link: '/maven/' },
+          { text: 'Maven', link: '/java/maven' },
+          { text: 'Spring', link: '/java/spring' },
         ],
       },
       {
