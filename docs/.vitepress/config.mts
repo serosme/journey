@@ -13,6 +13,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '初始化',
+        collapsed: true,
         items: [
           { text: 'Scoop', link: '/setup/scoop' },
           { text: 'Git', link: '/setup/git' },
@@ -22,6 +23,7 @@ export default defineConfig({
       },
       {
         text: '工具',
+        collapsed: true,
         items: [
           { text: 'Git', link: '/tool/git' },
           { text: 'Scoop', link: '/tool/scoop' },
@@ -31,6 +33,7 @@ export default defineConfig({
       },
       {
         text: 'Linux',
+        collapsed: true,
         items: [
           { text: 'Debian', link: '/linux/debian' },
           { text: 'Ubuntu', link: '/linux/ubuntu' },
@@ -49,7 +52,11 @@ export default defineConfig({
       },
       {
         text: '前端',
-        items: [{ text: 'pnpm', link: '/pnpm/' }],
+        collapsed: true,
+        items: [
+          { text: 'npm', link: '/web/npm' },
+          { text: 'pnpm', link: '/web/pnpm' },
+        ],
       },
     ],
 
