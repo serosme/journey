@@ -1,10 +1,5 @@
 import antfu from '@antfu/eslint-config'
 
-export default antfu(
-  {
-    formatters: true,
-  },
-  {
-    files: ['**/*.{ts,mts}'],
-  },
-)
+export default antfu({
+  formatters: true,
+})
