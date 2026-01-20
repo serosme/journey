@@ -1,19 +1,31 @@
 # Scoop
 
-## 快速开始
+## 文档
 
 [Scoop](https://scoop.sh/)
 
-## 命令
+## 快速开始
 
-导出
+修改脚本执行策略
 
-```pwsh
-scoop export > scoop.json
+```shell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-导入
+执行安装脚本
 
-```pwsh
-scoop import .\scoop.json
+```shell
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+设置代理
+
+```shell
+scoop config proxy 127.0.0.1:7890
+```
+
+从远程导入
+
+```shell
+irm https://script.seros.me/restore-scoop | iex
 ```
