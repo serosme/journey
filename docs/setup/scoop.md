@@ -15,7 +15,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 执行安装脚本
 
 ```shell
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+irm get.scoop.sh | iex
 ```
 
 设置代理
