@@ -15,8 +15,9 @@ export default defineConfig({
         text: '初始化',
         collapsed: true,
         items: [
-          { text: 'Scoop', link: '/setup/scoop' },
           { text: 'Git', link: '/setup/git' },
+          { text: 'Scoop', link: '/setup/scoop' },
+          { text: 'WinGet', link: '/setup/winget' },
           { text: 'WSL', link: '/setup/wsl' },
           { text: 'Docker', link: '/setup/docker' },
         ],
@@ -27,6 +28,7 @@ export default defineConfig({
         items: [
           { text: 'Git', link: '/tool/git' },
           { text: 'Scoop', link: '/tool/scoop' },
+          { text: 'WinGet', link: '/tool/winget' },
           { text: 'Docker', link: '/tool/docker' },
           { text: 'Kubernetes', link: '/tool/kubernetes' },
         ],
