@@ -6,12 +6,6 @@
 
 ## 快速开始
 
-修改脚本执行策略
-
-```shell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
 执行安装脚本
 
 ```shell
