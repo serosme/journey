@@ -18,8 +18,15 @@ export default defineConfig({
           { text: 'Git', link: '/setup/git' },
           { text: 'Scoop', link: '/setup/scoop' },
           { text: 'WinGet', link: '/setup/winget' },
-          { text: 'WSL', link: '/setup/wsl' },
           { text: 'Docker', link: '/setup/docker' },
+        ],
+      },
+      {
+        text: 'WSL',
+        collapsed: true,
+        items: [
+          { text: 'Start', link: '/wsl/start' },
+          { text: 'NixOS', link: '/wsl/nixos' },
         ],
       },
       {

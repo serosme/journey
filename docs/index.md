@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 即刻开始
       link: /setup/scoop
-    - theme: alt
-      text: 在 GitHub 上查看
-      link: https://github.com/serosme/guide
+    # - theme: alt
+    #   text: 在 GitHub 上查看
+    #   link: https://github.com/serosme/guide
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
