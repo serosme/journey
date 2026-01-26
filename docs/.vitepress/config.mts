@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Journal',
+  title: 'Guide',
   description: 'A VitePress Site',
   cleanUrls: true,
-  base: '/journey/',
+  base: '/guide/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: 'Home', link: '/' }],
+    nav: [{ text: '首页', link: '/' }],
 
     sidebar: [
       {
@@ -61,7 +61,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/serosme/journey' },
+      { icon: 'github', link: 'https://github.com/serosme/guide' },
     ],
   },
 })

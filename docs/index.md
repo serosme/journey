@@ -3,22 +3,16 @@
 layout: home
 
 hero:
-  name: "Journey"
+  name: "Guide"
   text: "步履不止，笔耕不辍。"
   tagline: "求知非抵达终点，而是永在旅途。"
   actions:
     - theme: brand
-      text: Scoop
+      text: 即刻开始
       link: /setup/scoop
     - theme: alt
-      text: Git
-      link: /setup/git
-    - theme: alt
-      text: WSL
-      link: /setup/wsl
-    - theme: alt
-      text: Docker
-      link: /setup/docker
+      text: 在 GitHub 上查看
+      link: https://github.com/serosme/guide
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
