@@ -62,7 +62,8 @@ export default defineConfig({
         items: [
           { text: 'npm', link: '/web/npm' },
           { text: 'pnpm', link: '/web/pnpm' },
-          { text: 'corepack', link: '/web/corepack' },
+          { text: 'Corepack', link: '/web/corepack' },
+          { text: 'Electron', link: '/web/electron' },
         ],
       },
     ],
